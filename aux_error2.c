@@ -10,7 +10,7 @@ char *error_env(data_shell *datash)
 	int length;
 	char *error;
 	char *ver_str;
-	char *msg;
+	char *mssg;
 
 	ver_str = aux_itoa(datash->counter);
 	msg = ": Unable to add/remove from environment\n";
